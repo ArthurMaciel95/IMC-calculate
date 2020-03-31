@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700&display=swap');
+:root{
+    --primary-color: #367397   ;
+    --primary-color-darker:#244d64 ;
+    --error-color:#FF4F4F;
+}
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+ padding: 0;
+ margin: 0;
+ background: var(--primary-color) ;
+ font-family: 'Noto Serif', sans-serif;
+ font-size: 1,3em;
+ line-height: 1.5em;
+}
+
+.container{
+    max-width: 640px;
+    margin: 25px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form input, form label, button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form input{
+    font-size: 20px;
+    height: 40px;
+    padding: 0 15px;
+    border-radius: 3px;
+    border:1px solid gray;
+    
+}
+form input:focus{
+    outline: 1px solid var(--primary-color);
+
+}
+
+form button{
+    background: var(--primary-color);
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    transition: linear;
+    margin-top: 25px;
+}
+form button:hover{
+    background: var(--primary-color-darker);
+    transition: all 0.1s linear;
+    cursor: pointer;
+}
+
+table, th, td {
+    border: solid 1px rgb(206, 206, 206);
+    border-collapse: collapse;
+    padding-right: 150px;
+    padding-left:10px;
+    
+   
+    
+  }
+table tr{
+    width: auto;
+}
+
+#res{
+    padding: 5px;
+    color:white;
+
+}
